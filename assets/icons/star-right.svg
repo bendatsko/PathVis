@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="spaceshiptwo-right" transform="translate(-1 -0.938)">
+    <rect id="Rectangle_58" data-name="Rectangle 58" width="4" height="20" transform="translate(9 0.938)" fill="#f2f2f2"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" width="20" height="4" transform="translate(1 8.958)" fill="#f2f2f2"/>
+    <rect id="Rectangle_60" data-name="Rectangle 60" width="4" height="20" transform="matrix(0.707, 0.707, -0.707, 0.707, 16.657, 2.451)" fill="#f2f2f2"/>
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="20.001" height="4" transform="translate(5.327 2.467) rotate(45)" fill="#f2f2f2"/>
+  </g>
+</svg>

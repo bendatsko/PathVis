@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.373" height="44.227" viewBox="0 0 47.373 44.227">
+  <g id="brick-wall" transform="translate(0 -17)">
+    <path id="Path_15" data-name="Path 15" d="M203.028,166.587V159H191v7.587Z" transform="translate(-173.328 -128.861)" fill="#f2f2f2"/>
+    <path id="Path_16" data-name="Path 16" d="M95.8,278.587V271H81v7.587Z" transform="translate(-73.505 -230.498)" fill="#f2f2f2"/>
+    <path id="Path_17" data-name="Path 17" d="M203.028,383H191v10.363h12.028Z" transform="translate(-173.328 -332.136)" fill="#f2f2f2"/>
+    <path id="Path_18" data-name="Path 18" d="M14.9,166.587V159H0v7.587Z" transform="translate(0 -128.861)" fill="#f2f2f2"/>
+    <path id="Path_19" data-name="Path 19" d="M365.9,166.587V159H351v7.587Z" transform="translate(-318.523 -128.861)" fill="#f2f2f2"/>
+    <path id="Path_20" data-name="Path 20" d="M285.8,278.587V271H271v7.587Z" transform="translate(-245.926 -230.498)" fill="#f2f2f2"/>
+    <path id="Path_21" data-name="Path 21" d="M351,383v10.363h13.509a1.388,1.388,0,0,0,1.388-1.388V383Z" transform="translate(-318.523 -332.136)" fill="#f2f2f2"/>
+    <path id="Path_22" data-name="Path 22" d="M14.9,383H0v8.975a1.388,1.388,0,0,0,1.388,1.388H14.9Z" transform="translate(0 -332.136)" fill="#f2f2f2"/>
+    <path id="Path_23" data-name="Path 23" d="M98.58,27.363V18.388A1.388,1.388,0,0,0,97.192,17h-14.8A1.388,1.388,0,0,0,81,18.388v8.975Z" transform="translate(-73.505)" fill="#f2f2f2"/>
+  </g>
+</svg>

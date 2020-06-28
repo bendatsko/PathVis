@@ -1,0 +1,8 @@
+<svg id="Component_4_1" data-name="Component 4 – 1" xmlns="http://www.w3.org/2000/svg" width="176" height="229.5" viewBox="0 0 176 229.5">
+  <g id="Component_3_1" data-name="Component 3 – 1">
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="169" height="109" rx="39" transform="translate(0 60.332)" fill="#1e2023"/>
+    <path id="Path_52" data-name="Path 52" d="M2133,441.668h60v60.5s-3.927-25.569-18.927-40.694S2133,441.668,2133,441.668Z" transform="translate(-2017 -272.668)" fill="#1e2023"/>
+    <path id="Path_53" data-name="Path 53" d="M2133,441.668h60.5v60s-3.96-25.358-19.085-40.358S2133,441.668,2133,441.668Z" transform="translate(617.668 -2133) rotate(90)" fill="#1e2023"/>
+  </g>
+  <rect id="Rectangle_46" data-name="Rectangle 46" width="46" height="113" transform="translate(130 58.332)" fill="#1e2023"/>
+</svg>

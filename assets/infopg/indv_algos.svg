@@ -1,0 +1,12 @@
+<svg id="Component_9_1" data-name="Component 9 – 1" xmlns="http://www.w3.org/2000/svg" width="1413.548" height="553.96" viewBox="0 0 1413.548 553.96">
+  <g id="epicRect" transform="translate(37.897)">
+    <path id="Path_471" data-name="Path 471" d="M1370.169,50.731s12.336,5.565,0-7.294c-1.6-1.667.4,16.212,0,7.294-.425-9.676-7.2-46.384-76.085-49.473-128.266-5.753-233.218,16.075-461.04,16.075S504.423,5.792,382.8,1.258c-171.777-6.4-332.082,12.934-347.6,28.558S10.569,51.577,10.569,51.577L0,93.39Z" transform="translate(1375.652 553.96) rotate(180)" fill="#27292c"/>
+    <rect id="Rectangle_89" data-name="Rectangle 89" width="1369" height="493" rx="54" transform="translate(3.103 32.295)" fill="#27292c"/>
+    <path id="Path_470" data-name="Path 470" d="M9323.351,286a128.316,128.316,0,0,1,19.257-26.235c2.253-2.349-33.939-.874-19.257-6.876,7.281-2.979,31.938-13.986,75.429-15.937,127.167-5.7,231.216,15.937,457.081,15.937s325.8-11.442,446.38-15.937c170.3-6.348,316.789,12.872,341.483,27.582,15.287,8.581,38.023,63.757,38.023,63.757Z" transform="translate(-9313.18 -235.705)" fill="#27292c"/>
+  </g>
+  <rect id="Rectangle_90" data-name="Rectangle 90" width="83" height="83" rx="33" transform="translate(0 437.295)" fill="#15171a"/>
+  <rect id="Rectangle_91" data-name="Rectangle 91" width="83" height="83" rx="33" transform="translate(0 330.295)" fill="#15171a"/>
+  <rect id="Rectangle_92" data-name="Rectangle 92" width="83" height="83" rx="33" transform="translate(0 9.295)" fill="#15171a"/>
+  <rect id="Rectangle_93" data-name="Rectangle 93" width="83" height="83" rx="33" transform="translate(0 118.295)" fill="#15171a"/>
+  <rect id="Rectangle_94" data-name="Rectangle 94" width="83" height="83" rx="33" transform="translate(0 224.295)" fill="#15171a"/>
+</svg>

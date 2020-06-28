@@ -1,0 +1,20 @@
+<svg id="cost_footer" xmlns="http://www.w3.org/2000/svg" width="1588" height="84" viewBox="0 0 1588 84">
+  <g id="weighted">
+    <rect id="Rectangle_95" data-name="Rectangle 95" width="83" height="83" rx="33" fill="#15171a"/>
+    <g id="kilograms-weight-svgrepo-com" transform="translate(21.503 22)">
+      <g id="Group_21" data-name="Group 21">
+        <path id="Path_418" data-name="Path 418" d="M31.118,11.662H21.292v-.528a5.719,5.719,0,1,0-3.485,0v.529H8.165L3.5,39.281H35.784ZM16.944,5.715a2.6,2.6,0,1,1,2.6,2.6A2.607,2.607,0,0,1,16.944,5.715Z" fill="rgba(255,255,255,0.52)"/>
+      </g>
+    </g>
+  </g>
+  <text id="Weighted:_Assigns_a_cost_to_each_move" data-name="Weighted: Assigns a &quot;cost&quot; to each move" transform="translate(103 53)" fill="#f2f2f2" font-size="31" font-family="ProductSans-Bold, Product Sans" font-weight="700"><tspan x="0" y="0">Weighted: Assigns a &quot;cost&quot; to each move</tspan></text>
+  <text id="Unweighted:_Cost_not_considered_while_pathfinding." data-name="Unweighted: &quot;Cost&quot; not considered while pathfinding." transform="translate(829 54)" fill="#f2f2f2" font-size="31" font-family="ProductSans-Bold, Product Sans" font-weight="700"><tspan x="0" y="0">Unweighted: &quot;Cost&quot; not considered while pathfinding.</tspan></text>
+  <g id="unweighted" transform="translate(726 1)">
+    <rect id="Rectangle_96" data-name="Rectangle 96" width="83" height="83" rx="33" fill="#15171a"/>
+    <g id="speed" transform="translate(18 18.999)">
+      <path id="Path_467" data-name="Path 467" d="M43.91,0c-8.98-.161-19.221,4.533-25.7,11.815a24.323,24.323,0,0,0-16.668,7.1.958.958,0,0,0,.537,1.631l7.387,1.058L8.55,22.628a.958.958,0,0,0,.038,1.317L20.907,36.264a.961.961,0,0,0,1.317.036l1.022-.912L24.3,42.775a.954.954,0,0,0,.679.74.881.881,0,0,0,.274.042A1.082,1.082,0,0,0,26,43.248a24.272,24.272,0,0,0,7.036-16.607c7.289-6.5,12.022-16.733,11.813-25.7A.963.963,0,0,0,43.91,0ZM35.078,16.55a4.792,4.792,0,1,1,0-6.778A4.777,4.777,0,0,1,35.078,16.55Z" transform="translate(1.149 0)" fill="#98999a"/>
+      <path id="Path_468" data-name="Path 468" d="M5.221,17.733C3.17,19.784.355,29.05.04,30.1a.959.959,0,0,0,.918,1.234.981.981,0,0,0,.276-.04c1.048-.314,10.314-3.13,12.365-5.181a5.924,5.924,0,1,0-8.378-8.378Z" transform="translate(0 14.668)" fill="#98999a"/>
+    </g>
+  </g>
+  <path id="Path_472" data-name="Path 472" d="M0,0H82V4H0Z" transform="translate(398 60)" fill="#1f7ae6"/>
+</svg>

@@ -1,0 +1,420 @@
+<html>
+
+<head>
+  <title>Pathfinding Visualizer</title>
+  <link id="cssTheme" rel="stylesheet" href="assets/cssbasic.css" />
+  <link rel="shortcut icon" type="image/png" href="./assets/icons/bologo4.png">
+</head>
+
+<body>
+  <!-- sidebar layout -->
+  <div id="getContentHeight"></div>
+  <nav class="sidebar">
+    <ul id="iconComponentList">
+      <li id="informationList">
+        <div class="itemSel2">
+          <img src="./assets/icons/longersel.svg" class="slider" id="awesome45"></img>
+        </div>
+        <ul class="informationComponentList">
+          <li id="sbBranding">
+            <div class="branding">
+              <ul>
+                <li><img id="refreshButton" src="./assets/icons/bologo5.png" style="width:8.5vh;height:8.5vh;"></li>
+                <li><a>PathVis</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="iconContainerElement">
+            <button class="triggerInfo" id="infoUptoBtn" onclick="location.href='#about'"">
+                    <div class=" iconContainer">
+              <div class="info">
+                <img src="./assets/icons/info.svg">
+              </div>
+              </div>
+            </button>
+
+          </li>
+          <li>
+            <a id="infoText">What is this?</a>
+          </li>
+        </ul>
+      </li>
+      <li id="settingsList">
+        <div class="itemSel1">
+          <img src="./assets/icons/longersel.svg" class="slider" id="awesome44"></img>
+        </div>
+        <ul class="informationComponentList">
+          <li id="iconContainerElement">
+            <button class="triggerSettings" id="cpDownBtn">
+              <div class="iconContainer">
+                <div class="settings">
+                  <img src="./assets/icons/settings.svg" href="#slice">
+                </div>
+              </div>
+            </button>
+          </li>
+          <li>
+            <a id="cpText">Control Panel</a>
+          </li>
+        </ul>
+      </li>
+      <li id="githubList">
+        <ul class="informationComponentList">
+          <li id="iconContainerElement">
+            <button class="triggerGithub">
+              <div class="iconContainer rippleDiv">
+                <div class="github">
+                  <img src="./assets/icons/github.svg">
+                </div>
+
+              </div>
+            </button>
+          </li>
+          <li>
+            <a>GitHub Repo</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Info Panel 1 -->
+  <div class="about_panel" id="about">
+    <div class="about_content">
+      <div class="apptitle">
+        <h1 id="path">Path<span id="vis">Vis</span></h1>
+        <h1 id="titledesc">A Pathfinding Algorithm Visualization Tool</h1>
+        <button id="startTut" onclick="location.href='#about2'">Short Tutorial</button>
+        <h1 id="useChrome">Please Run With Google Chrome on a Landscape-Oriented Display!</h1>
+      </div>
+      <!-- Info panel shapes and stuff -->
+      <div id="homeDec">
+        <div id="compileddots"><img src="./assets/infopg/compiledots.png"></div>
+        <div id="tri"><img src="./assets/infopg/tri.svg"></div>
+        <div id="waves"><img src="./assets/infopg/waves.svg"></div>
+        <div id="square"><img src="./assets/infopg/patrat.svg"></div>
+        <div id="blob"><img src="./assets/infopg/blob.svg"></div>
+        <div id="blob2"><img src="./assets/infopg/path2.svg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Panel 2 -->
+  <div class="about_panel2" id="about2">
+    <div class="about_content2">
+      <div id="whatAlgo">
+        <div id="compileddots"><img src="./assets/infopg/compiledots.png"></div>
+        <div id="algosquare"><img src="./assets/infopg/patrat.svg"></div>
+        <h1 id="pathalgos">Pathfinding Algorithms</h1>
+        <a id="whatisit">What are they?</a>
+        <a id="whatisdesc">A pathfinding algorithm attempts to find the shortest
+          path between two points given the presence of
+          obstacles. This is done through the utilization of
+          various pre-determined characteristics unique to
+          each algorithm. This particular program features graph
+          search algorithms.</a>
+        <div id="pathIsoImg"><img src="./assets/infopg/algoiso.svg"></div>
+        <div id="pathIsoBlob"><img src="./assets/infopg/algoisoblob.svg"></div>
+        <button id="nextIcon" onclick="location.href='#about3'"><img src="./assets/icons/chevron-right.svg"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Panel 3 -->
+  <div class="about_panel3" id="about3">
+    <div class="about_content3">
+      <div id="compileddots2"><img src="./assets/infopg/compiledots.png"></div>
+      <div id="algodescsquare"><img src="./assets/infopg/patrat.svg"></div>
+      <div id="algo2container">
+        <ul id="howDoWork">
+          <li>
+            <h1>How do They Work?</h1>
+          </li>
+          <li><a>Below is a list of algorithms that can be found in PathVis along with a brief description of how each
+              one works.</a></li>
+        </ul>
+        <div id="weightedInfo">
+          <div id="unweightedList">
+            <a
+              style="font-size: 1.7vh; font-family: prodsans; color: #F2F2F2; margin-left: 14.5vw; position: absolute; margin-top: 1.65vh;">Does
+              not account for the "cost" of the path produced</a>
+            <ul id="unAlgoRect">
+              <li><img src="./assets/infopg/unweighted_icon.svg"
+                  style="width: 1.92vw; margin-top: .5vh; margin-left: .67vw;"></li>
+              <li><a
+                  style="font-size: 1.92vh; font-family: prodsans_bold; color: #F2F2F2; margin-left: .42vw;">Unweighted
+                  Algorithm</a></li>
+            </ul>
+          </div>
+          <div id="weightedList">
+            <a
+              style="font-size: 1.7vh; font-family: prodsans; color: #F2F2F2; margin-left: 13.5vw; position: absolute; margin-top: 1.65vh;">Limits
+              the number of moves made, where each move adds to the "cost" of the path</a>
+            <ul id="wghtAlgoRect">
+              <li><img src="./assets/infopg/weighted_icon.svg"
+                  style="width: 1.92vw; margin-top: .5vh; margin-left: .67vw;"></li>
+              <li><a style="font-size: 1.92vh; font-family: prodsans_bold; color: #F2F2F2; margin-left: .42vw;">Weighted
+                  Algorithm</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="listBgRect">
+          <div id="dijkstra">
+            <ul id="algoListContainer">
+              <li><img src="./assets/infopg/weighted_icon.svg" style="height: 8vh; margin-left: 3vw;"></li>
+              <li>
+                <ul id="algoListDesc">
+                  <li id="algoListDescUp"><a
+                      style="font-size: 3vh; font-family: prodsans_bold; color: #F2F2F2;">Dijkstra's Algorithm</a></li>
+                  <li id="algoListDescBottom"><a
+                      style="font-size: 1.92vh; font-family: prodsans; color: #F2F2F2;">Checks each node for its state;
+                      begins at start node and expands outward. Slow, but guarantees the shortest path.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="aStarAlgo">
+            <ul id="algoListContainer">
+              <li><img src="./assets/infopg/weighted_icon.svg" style="height: 8vh; margin-left: 3vw;"></li>
+              <li>
+                <ul id="algoListDesc">
+                  <li id="algoListDescUp"><a style="font-size: 3vh; font-family: prodsans_bold; color: #F2F2F2;">A*
+                      Search</a></li>
+                  <li id="algoListDescBottom"><a style="font-size: 1.92vh; font-family: prodsans; color: #F2F2F2;">Uses
+                      heuristics and weights in tandem to guarantee the shortest path quickly and efficiently.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="greedySearch">
+            <ul id="algoListContainer">
+              <li><img src="./assets/infopg/weighted_icon.svg" style="height: 8vh; margin-left: 3vw;"></li>
+              <li>
+                <ul id="algoListDesc">
+                  <li id="algoListDescUp"><a style="font-size: 3vh; font-family: prodsans_bold; color: #F2F2F2;">Greedy
+                      Search</a></li>
+                  <li id="algoListDescBottom"><a style="font-size: 1.92vh; font-family: prodsans; color: #F2F2F2;">A
+                      faster, more heuristic-based version of A* that doesn't guarantee the shortest path.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="bfSearch">
+            <ul id="algoListContainer">
+              <li><img src="./assets/infopg/unweighted_icon.svg" style="height: 8vh; margin-left: 3vw;"></li>
+              <li>
+                <ul id="algoListDesc">
+                  <li id="algoListDescUp"><a
+                      style="font-size: 3vh; font-family: prodsans_bold; color: #F2F2F2;">Breadth-First Search</a></li>
+                  <li id="algoListDescBottom"><a
+                      style="font-size: 1.92vh; font-family: prodsans; color: #F2F2F2;">Traverses through a "potential
+                      moves" tree by each level. Doesn't favor one subtree. Guarantees shortest path.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="dfSearch">
+            <ul id="algoListContainer">
+              <li><img src="./assets/infopg/unweighted_icon.svg" style="height: 8vh; margin-left: 3vw;"></li>
+              <li>
+                <ul id="algoListDesc">
+                  <li id="algoListDescUp"><a
+                      style="font-size: 3vh; font-family: prodsans_bold; color: #F2F2F2;">Depth-First Search</a></li>
+                  <li id="algoListDescBottom"><a
+                      style="font-size: 1.92vh; font-family: prodsans; color: #F2F2F2;">Traverses through each potential
+                      move outcome subtree independently. Slow and doesn't guarantee shortest path.</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <button id="nextIcon" onclick="location.href='#about4'" style="right: 1vw; margin-top: 30.5vh;"><img
+            src="./assets/icons/chevron-right.svg"></button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Panel 4 -->
+  <div class="about_panel4" id="about4">
+    <div class="about_content4">
+      <div id="wallsblob"><img src="./assets/infopg/path2.svg"></div>
+      <div id="compileddots2"><img src="./assets/infopg/compiledots.png" style="margin-top: -33vh; margin-left: -10vw;">
+      </div>
+      <div id="wallsContainer">
+        <h1>Adding Walls</h1>
+        <a>Click on the grid to add a wall. Generate mazes and various other patterns using the "Generate" tab in the
+          control panel. Walls are viewed as impenetrable by all algorithms. </a>
+        <div id="wallsClipBG"></div>
+        <div id="wallsClip">
+          <img src="./assets/infopg/i_just_bought_a_train.gif">
+        </div>
+      </div>
+      <button id="nextIcon" onclick="location.href='#about5'" style="right: 5vw; margin-top: 37vh;"><img
+          src="./assets/icons/chevron-right.svg"></button>
+    </div>
+  </div>
+
+  <!-- Info Panel 5 -->
+  <div class="about_panel5" id="about5">
+    <div class="about_content5">
+      <div id="wallsblob"><img src="./assets/infopg/path2.svg"
+          style="margin-top: 50vh; margin-left: 60%; transform: rotate(8deg);"></div>
+      <div id="compileddots2"><img src="./assets/infopg/compiledots.png" style="margin-top: -33vh; margin-left: -10vw;">
+      </div>
+      <div id="wallsContainer">
+        <h1>Medial Target Placement</h1>
+        <a>Click the "Toggle Medial Target Placement" button in the control panel to summon in a medial target. Click
+          and drag it around the grid to modify its position. To remove it, click the toggle button again.</a>
+        <div id="wallsClipBG"></div>
+        <div id="wallsClip">
+          <img src="./assets/infopg/medialtargetdemo.gif">
+        </div>
+      </div>
+      <button id="nextIcon" onclick="location.href='#about6'" style="right: 5vw; margin-top: 37vh;"><img
+          src="./assets/icons/chevron-right.svg"></button>
+    </div>
+  </div>
+
+  <!-- Info Panel 6 -->
+  <div class="about_panel6" id="about6">
+    <div class="about_content6">
+      <!-- <div id="wallsblob"><img src="./assets/infopg/path2.svg" style="margin-top: 50vh; margin-left: 60%; transform: rotate(8deg);"></div> -->
+      <div id="compileddots2"><img src="./assets/infopg/compiledots.png" style="margin-top: -33vh; margin-left: -10vw;">
+      </div>
+      <div id="wallsContainer">
+        <h1>Realtime Recalculations</h1>
+        <a>After the initial visualization process has been completed, you may click on and move any node to another
+          position on the grid. The shortest path and visited nodes will then be recalculated instantaneously.</a>
+        <div id="wallsClipBG"></div>
+        <div id="wallsClip">
+          <img src="./assets/infopg/autorecalcdemo.gif">
+        </div>
+      </div>
+      <button id="nextIcon" onclick="location.href='#about'" style="right: 5vw; margin-top: 37vh;"><img
+          src="./assets/icons/chevron-right.svg"></button>
+    </div>
+  </div>
+
+  <!-- Config Panel -->
+  <div class="config_panel" id="config">
+    <div class="config_content">
+      <div class="cpElements">
+        <ul id="cpElementList">
+          <li id="title">
+            <h1>Control Panel</h1>
+          </li>
+          <li id="startButtonStart"><button id="actualStartButton">
+              <div class="startBtnDiv rippleDiv" id="startBtnDiv">
+                <ul id="componentTextList">
+                  <li id="top"><a>Visualize!</a></li>
+                  <li id="startbottom"><a>Begin Algorithm Visualization</a></li>
+                  <li id="stupid"><img src="assets/icons/play.svg"></li>
+                </ul>
+              </div>
+            </button></li>
+          <li id="clearBoard"><button class="clearBoardBtn">
+              <div class="clearBtnDiv rippleDiv">
+                <ul id="componentTextList">
+                  <li id="top"><a>Clear Board</a></li>
+                  <li id="bottom"><a>Clear Board of all Elements</a></li>
+                  <li><img src="assets/icons/clear_all-24px.svg"></li>
+                </ul>
+
+              </div>
+            </button></li>
+          <li id="clearPath"><button class="clearPathBtn">
+              <div class="clearPathDiv rippleDiv">
+                <ul id="componentTextList">
+                  <li id="top"><a>Clear Path</a></li>
+                  <li id="bottom"><a>Clear all Shortest-Path Nodes</a></li>
+                  <li><img src="assets/icons/Squiggly-Road-Sign-Arrow.svg"></li>
+                </ul>
+              </div>
+            </button></li>
+          <li id="speed"><button class="speedDropDown""><div class=" speedBtnDiv">
+              <ul id="componentTextList">
+                <li id="top"><a>Speed</a><span>▼</span></li>
+                <li id="speedBottom"><a>Change Visualizer Speed</a></li>
+                <li><img src="assets/icons/dashboard.svg"></li>
+              </ul>
+
+      </div></button>
+      <div class="dropdown-content">
+        <a id="speedFast" href="#config">Fast</a>
+        <a id="speedModerate" href="#config">Moderate</a>
+        <a id="speedSlow" href="#config">Slow</a>
+      </div>
+      </li>
+      </ul>
+      <ul id="configVisList">
+        <li id="title">
+          <h1>Configure Pathfinding</h1>
+        </li>
+        <li id="algorithm"><button class="selAlgoBtn">
+            <div class="selAlgoDiv">
+              <ul id="componentTextList">
+                <li id="top"><a>Algorithm</a><span>▼</span></li>
+                <li id="algobottom"><a>Select an Algorithm to Visualize</a></li>
+                <li><img src="assets/icons/coding.svg"></li>
+              </ul>
+            </div>
+          </button>
+          <ul class="dropdown-content">
+            <li id='startButtonDijkstra'><a href="#config">Dijkstra's Algorithm</a></li>
+            <li id='startButtonAStar2'><a href="#config">A* Search</a></li>
+            <li id='startButtonGreedy'><a href="#config">Greedy Best-first Search</a></li>
+            <li id='startButtonBFS'><a href="#config">Breadth-first Search</a></li>
+            <li id='startButtonDFS'><a href="#config">Depth-first Search</a></li>
+          </ul>
+        </li>
+        <li id="generate"><button class="selGenBtn">
+            <div class="selGenDiv">
+              <ul id="componentTextList">
+                <li id="top"><a>Generate</a><span>▼</span></li>
+                <li id="genbottom"><a>Generate Mazes & Patterns</a></li>
+                <li><img src="assets/icons/maze.svg"></li>
+              </ul>
+            </div>
+          </button>
+          <div class="dropdown-content">
+            <a id="genRecurs" href="#config">Recursive Division</a>
+            <a id="genRand" href="#config">Basic Random Maze</a>
+            <a id="genStair" href="#config">Stair Pattern</a>
+          </div>
+        </li>
+        <li id="secondTarget"><button class="toggleTargTwoBtn">
+            <div class="tTwoDiv rippleDiv">
+              <ul id="componentTextList">
+                <li id="top"><a>Secondary Target Placement</a></li>
+                <li id="targetbottom"><a>Add Medial Target</a></li>
+                <li><img src="assets/icons/white_target.svg"></li>
+              </ul>
+            </div>
+          </button></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div id="centerpathvis">
+    <div id="pathvisContainer">
+
+      <div id="algoDescContainer">
+        <div id="algorithmDescriptor">Pick an algorithm and visualize it!</div>
+        <div id='mainGrid'>
+          <table id='board' />
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- External Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src='assets/bundle.js'></script>
+<script src="assets/scripts/sb-ui/sidebarItemAnim.js"></script>
+<script src="./assets/scripts/sb-ui/button.js"></script>
+
+</html>
