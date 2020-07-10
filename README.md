@@ -6,11 +6,11 @@
 > Check it out here: https://pathvis.bendatsko.com/#about (Use Chrome!)
 
 ## Visualizable Algorithms
-- Dijkstra’s Algorithm
-- A-Star Search
-- Greedy Search
-- Breadth-First Search
-- Depth-First Search
+> - Dijkstra’s Algorithm
+> - A-Star Search
+> - Greedy Search
+> - Breadth-First Search
+> - Depth-First Search
 
 
 ## Regarding Instructions
