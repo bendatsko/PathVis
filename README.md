@@ -2,15 +2,15 @@
 
 ## Introduction
 
-> PathVis is a web-based algorithm visualizer that I created after becoming introduced to the mesmerizing intricacy of algorithms by Clement Mihailescu. This program was written using vanilla JS & CSS. It also features a mediocre excuse for a material design-inspired UI. 
+> PathVis is a web-based algorithm visualizer that I created after being introduced to algorithms by Clement Mihailescu. This program was written using vanilla JS & CSS. It also features a mediocre excuse for a material design-inspired UI. 
 > Check it out here: https://pathvis.bendatsko.com/#about (Use Chrome!)
 
 ## Visualizable Algorithms
-> Dijkstra’s Algorithm
-> A* Search
-> Greedy Search
-> Breadth-First Search
-> Depth-First Search
+- Dijkstra’s Algorithm
+- A-Star Search
+- Greedy Search
+- Breadth-First Search
+- Depth-First Search
 
 
 ## Regarding Instructions
